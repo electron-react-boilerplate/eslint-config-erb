@@ -19,6 +19,9 @@
     "index.json"
   ],
   "license": "MIT",
+  "scripts": {
+    "test": "exit 0"
+  },
   "peerDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.10.0",
