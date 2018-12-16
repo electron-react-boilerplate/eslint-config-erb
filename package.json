@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-erb",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/electron-react-boilerplate/eslint-config-erb",
+  "contributors": [
+    {
+      "name": "Vikram Rangaraj",
+      "email": "vikr01@icloud.com",
+      "url": "https://github.com/vikr01"
+    },
+    {
+      "name": "Amila Welihinda",
+      "email": "amilajack@gmail.com",
+      "url": "https://github.com/amilajack"
+    }
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-formatter-pretty": "^2.0.0",
+    "eslint-import-resolver-webpack": "^0.10.1",
+    "eslint-plugin-compat": "^2.6.3",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-testcafe": "^0.2.1"
+  }
+}
