@@ -11,7 +11,7 @@
     "node": true
   },
   "rules": {
-    "arrow-parens": ["off"],
+    "arrow-parens": "off",
     "compat/compat": "error",
     "consistent-return": "off",
     "comma-dangle": "off",
