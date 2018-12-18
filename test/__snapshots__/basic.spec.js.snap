@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic should report semicolon errors 1`] = `
+Array [
+  Array [
+    Object {
+      "column": 19,
+      "endColumn": 19,
+      "endLine": 1,
+      "filePath": "",
+      "fix": Object {
+        "range": Array [
+          18,
+          18,
+        ],
+        "text": ";",
+      },
+      "line": 1,
+      "message": "Insert \`;\`",
+      "nodeType": null,
+      "ruleId": "prettier/prettier",
+      "severity": 2,
+    },
+    Object {
+      "column": 5,
+      "endColumn": 8,
+      "endLine": 3,
+      "filePath": "",
+      "line": 3,
+      "message": "'bar' is assigned a value but never used.",
+      "nodeType": "Identifier",
+      "ruleId": "no-unused-vars",
+      "severity": 2,
+    },
+    Object {
+      "column": 5,
+      "endColumn": 8,
+      "endLine": 3,
+      "filePath": "",
+      "fix": Object {
+        "range": Array [
+          37,
+          40,
+        ],
+        "text": "const",
+      },
+      "line": 3,
+      "message": "'bar' is never reassigned. Use 'const' instead.",
+      "nodeType": "Identifier",
+      "ruleId": "prefer-const",
+      "severity": 2,
+    },
+    Object {
+      "column": 17,
+      "endColumn": 17,
+      "endLine": 3,
+      "filePath": "",
+      "fix": Object {
+        "range": Array [
+          53,
+          53,
+        ],
+        "text": ";",
+      },
+      "line": 3,
+      "message": "Insert \`;\`",
+      "nodeType": null,
+      "ruleId": "prettier/prettier",
+      "severity": 2,
+    },
+  ],
+]
+`;
