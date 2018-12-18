@@ -5,6 +5,14 @@ describe('basic', () => {
     const cli = new CLIEngine({
       useEslintrc: true
     });
-    expect(cli.executeOnFiles([require.resolve('./bad.js')])).toMatchSnapshot();
+    const { results } = cli.executeOnFiles([require.resolve('./bad.js')]);
+    expect(
+      results.map(result =>
+        result.messages.map(message => ({
+          ...message,
+          filePath: ''
+        }))
+      )
+    ).toMatchSnapshot();
   });
 });
