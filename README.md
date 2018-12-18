@@ -21,7 +21,7 @@ yarn add --dev eslint-config-erb
 npm install --save-dev eslint-config-erb
 ```
 2. Extend the config
-```json
+```jsonc
 // .eslintrc.json
 {
   "extends": "erb"
