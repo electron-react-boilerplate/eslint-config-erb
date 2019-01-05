@@ -37,7 +37,7 @@
     "eslint-plugin-jsx-a11y": "6.1.2",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-react": "^7.12.0",
+    "eslint-plugin-react": "^7.12.3",
     "eslint-plugin-testcafe": "^0.2.1"
   },
   "devDependencies": {
@@ -51,7 +51,7 @@
     "eslint-plugin-jsx-a11y": "6.1.2",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-react": "^7.12.0",
+    "eslint-plugin-react": "^7.12.3",
     "eslint-plugin-testcafe": "^0.2.1",
     "jest": "^23.6.0",
     "prettier": "^1.15.3"
