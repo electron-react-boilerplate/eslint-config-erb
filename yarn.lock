@@ -1374,10 +1374,10 @@ eslint-plugin-compat@^2.7.0:
     caniuse-db "^1.0.30000935"
     mdn-browser-compat-data "^0.0.65"
 
-eslint-plugin-flowtype@^3.9.1:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-3.9.1.tgz#6491d930e1f96d53c510e0393e635fddd4a4cac5"
-  integrity sha512-ZlV6SbIXqz2ysvG0F64ZH07dqzLrwMdM1s0UNfoxdXjr4kMKuPPoLViwK+gFC952QIf341AmP4BKtKOhcB96Ug==
+eslint-plugin-flowtype@^3.11.1:
+  version "3.11.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-3.11.1.tgz#1aae15a10dbcd5aecc89897f810f2e9fcc18a5e3"
+  integrity sha512-4NiaaGZuz9iEGRTK8j4lkA/scibOXSYaYoHbsTtgLOxxqQCkbWV3xt8ETqILKg7DAYDqB69z1H5U71UmtdF9hw==
   dependencies:
     lodash "^4.17.11"
 
