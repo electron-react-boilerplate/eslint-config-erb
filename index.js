@@ -49,6 +49,7 @@ module.exports = {
     'promise/always-return': 'error',
     'promise/catch-or-return': 'error',
     'promise/no-native': 'off',
+    'react/static-property-placement': 'off',
     'react/sort-comp': [
       'error',
       {
