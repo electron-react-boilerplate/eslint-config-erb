@@ -26,17 +26,6 @@ Array [
       "endColumn": 8,
       "endLine": 3,
       "filePath": "",
-      "line": 3,
-      "message": "'bar' is assigned a value but never used.",
-      "nodeType": "Identifier",
-      "ruleId": "no-unused-vars",
-      "severity": 2,
-    },
-    Object {
-      "column": 5,
-      "endColumn": 8,
-      "endLine": 3,
-      "filePath": "",
       "fix": Object {
         "range": Array [
           37,
@@ -46,8 +35,20 @@ Array [
       },
       "line": 3,
       "message": "'bar' is never reassigned. Use 'const' instead.",
+      "messageId": "useConst",
       "nodeType": "Identifier",
       "ruleId": "prefer-const",
+      "severity": 2,
+    },
+    Object {
+      "column": 5,
+      "endColumn": 8,
+      "endLine": 3,
+      "filePath": "",
+      "line": 3,
+      "message": "'bar' is assigned a value but never used.",
+      "nodeType": "Identifier",
+      "ruleId": "no-unused-vars",
       "severity": 2,
     },
     Object {
