@@ -3,17 +3,17 @@ module.exports = {
     require.resolve('eslint-config-airbnb'),
     'plugin:prettier/recommended',
     require.resolve('eslint-config-prettier/flowtype'),
-    require.resolve('eslint-config-prettier/react'),
+    require.resolve('eslint-config-prettier/react')
   ],
   plugins: ['flowtype', 'import', 'promise', 'compat', 'react'],
   parser: require.resolve('babel-eslint'),
   parserOptions: {
     sourceType: 'module',
-    allowImportExportEverywhere: true,
+    allowImportExportEverywhere: true
   },
   env: {
     browser: true,
-    node: true,
+    node: true
   },
   rules: {
     'arrow-parens': 'off',
@@ -39,7 +39,7 @@ module.exports = {
     'flowtype/valid-syntax': 'error',
     'generator-star-spacing': 'off',
     'import/no-unresolved': 'error',
-    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'import/no-extraneous-dependencies': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
     'no-console': 'off',
     'no-use-before-define': 'off',
@@ -58,12 +58,12 @@ module.exports = {
           'static-methods',
           'lifecycle',
           'everything-else',
-          'render',
-        ],
-      },
+          'render'
+        ]
+      }
     ],
     'react/jsx-no-bind': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
-    'react/prefer-stateless-function': 'off',
-  },
+    'react/prefer-stateless-function': 'off'
+  }
 };
