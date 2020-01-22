@@ -16,6 +16,7 @@
     }
   ],
   "files": [
+    "typescript.js",
     "index.js"
   ],
   "license": "MIT",
