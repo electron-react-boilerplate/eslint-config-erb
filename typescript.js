@@ -1,46 +1,25 @@
 module.exports = {
   extends: [
-    'plugin:import/errors',
+    'airbnb-typescript',
+    'plugin:react/recommended',
     'plugin:import/typescript',
+    'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
-    'plugin:promise/recommended'
+    'plugin:jest/recommended',
+    'plugin:promise/recommended',
+    'plugin:compat/recommended'
   ],
-  parser: 'babel-eslint',
+  env: {
+    browser: true,
+    node: true
+  },
+  parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 2020,
     sourceType: 'module'
   },
-  overrides: [
-    {
-      extends: [
-        'plugin:react/recommended',
-        'plugin:import/typescript',
-        'plugin:@typescript-eslint/recommended',
-        'prettier/@typescript-eslint',
-        'plugin:prettier/recommended',
-        'plugin:promise/recommended'
-      ],
-      files: ['*.ts', '*.tsx'],
-      parser: '@typescript-eslint/parser',
-      parserOptions: {
-        ecmaVersion: 2018,
-        sourceType: 'module'
-      },
-      rules: {
-        'import/default': 'off',
-        '@typescript-eslint/no-var-requires': 'off'
-      }
-    },
-    {
-      files: ['*.spec.ts', '*.spec.tsx'],
-      rules: {
-        '@typescript-eslint/ban-ts-ignore': 'off'
-      }
-    }
-  ],
   rules: {
-    'flowtype-errors/show-errors': 'off',
-    'prettier/prettier': ['error', { singleQuote: true }]
+    '@typescript-eslint/explicit-function-return-type': 'off'
   }
 };
