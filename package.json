@@ -21,7 +21,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "test": "jest ."
+    "test": "jest"
   },
   "dependencies": {
     "babel-eslint": "^10.0.3"
