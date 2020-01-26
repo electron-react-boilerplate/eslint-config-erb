@@ -246,6 +246,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.7.7":
+  version "7.8.3"
+  resolved "http://localhost:4873/@babel%2fruntime/-/runtime-7.8.3.tgz#0811944f73a6c926bb2ad35e918dcc1bfab279f1"
+  integrity sha512-fVHx1rzEmwB130VTkLnxR+HmxcTjGzH12LYQcFFoBwakMd3aOMD4OsRN7tGG/UOYE2ektgFrS8uACAoRk1CY0w==
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@babel/template@^7.1.0":
   version "7.2.2"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.2.2.tgz#005b3fdf0ed96e88041330379e0da9a708eb2907"
@@ -1126,14 +1133,14 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-browserslist@^4.6.3:
-  version "4.7.2"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.7.2.tgz#1bb984531a476b5d389cedecb195b2cd69fb1348"
-  integrity sha512-uZavT/gZXJd2UTi9Ov7/Z340WOSQ3+m1iBVRUknf+okKxonL9P83S3ctiBDtuRmRu8PiCHjqyueqQ9HYlJhxiw==
+browserslist@^4.8.2:
+  version "4.8.5"
+  resolved "http://localhost:4873/browserslist/-/browserslist-4.8.5.tgz#691af4e327ac877b25e7a3f7ee869c4ef36cdea3"
+  integrity sha512-4LMHuicxkabIB+n9874jZX/az1IaZ5a+EUuvD7KFOu9x/Bd5YHyO0DIz2ls/Kl8g0ItS4X/ilEgf4T1Br0lgSg==
   dependencies:
-    caniuse-lite "^1.0.30001004"
-    electron-to-chromium "^1.3.295"
-    node-releases "^1.1.38"
+    caniuse-lite "^1.0.30001022"
+    electron-to-chromium "^1.3.338"
+    node-releases "^1.1.46"
 
 bser@^2.0.0:
   version "2.0.0"
@@ -1196,15 +1203,15 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
-caniuse-db@^1.0.30000977:
-  version "1.0.30001010"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30001010.tgz#1bcbfb0afce73ae5308964db0bafac814ee44c0a"
-  integrity sha512-frpo0HYuu8tOQqTq/B4LVBDUHFwAeEHLHmSMzG90Ymgq4ll4EArwpqFzNANfQaQwD/q3IIZqQYxftbprZnt8pA==
+caniuse-db@^1.0.30001017:
+  version "1.0.30001023"
+  resolved "http://localhost:4873/caniuse-db/-/caniuse-db-1.0.30001023.tgz#f856f71af16a5a44e81f1fcefc1673912a43da72"
+  integrity sha512-EnlshvE6oAum+wWwKmJNVaoqJMjIc0bLUy4Dj77VVnz1o6bzSPr1Ze9iPy6g5ycg1xD6jGU6vBmo7pLEz2MbCQ==
 
-caniuse-lite@^1.0.30001004:
-  version "1.0.30001010"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001010.tgz#397a14034d384260453cc81994f494626d34b938"
-  integrity sha512-RA5GH9YjFNea4ZQszdWgh2SC+dpLiRAg4VDQS2b5JRI45OxmbGrYocYHTa9x0bKMQUE7uvHkNPNffUr+pCxSGw==
+caniuse-lite@^1.0.30001022:
+  version "1.0.30001023"
+  resolved "http://localhost:4873/caniuse-lite/-/caniuse-lite-1.0.30001023.tgz#b82155827f3f5009077bdd2df3d8968bcbcc6fc4"
+  integrity sha512-C5TDMiYG11EOhVOA62W1p3UsJ2z4DsHtMBQtjzp3ZsUglcQn62WOUgW0y795c7A5uZ+GCEIvzkMatLIlAsbNTA==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -1653,10 +1660,10 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-electron-to-chromium@^1.3.295:
-  version "1.3.306"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.306.tgz#e8265301d053d5f74e36cb876486830261fbe946"
-  integrity sha512-frDqXvrIROoYvikSKTIKbHbzO6M3/qC6kCIt/1FOa9kALe++c4VAJnwjSFvf1tYLEUsP2n9XZ4XSCyqc3l7A/A==
+electron-to-chromium@^1.3.338:
+  version "1.3.340"
+  resolved "http://localhost:4873/electron-to-chromium/-/electron-to-chromium-1.3.340.tgz#5d4fe78e984d4211194cf5a52e08069543da146f"
+  integrity sha512-hRFBAglhcj5iVYH+o8QU0+XId1WGoc0VGowJB1cuJAt3exHGrivZvWeAO5BRgBZqwZtwxjm8a5MQeGoT/Su3ww==
 
 elliptic@^6.0.0:
   version "6.4.1"
@@ -1875,18 +1882,18 @@ eslint-module-utils@^2.4.1:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-compat@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-3.3.0.tgz#ece063f53793e6859243ce6cb9634865f745b72e"
-  integrity sha512-QCgYy3pZ+zH10dkBJus1xER0359h1UhJjufhQRqp9Owm6BEoLZeSqxf2zINwL1OGao9Yc96xPYIW3nQj5HUryg==
+eslint-plugin-compat@^3.5.1:
+  version "3.5.1"
+  resolved "http://localhost:4873/eslint-plugin-compat/-/eslint-plugin-compat-3.5.1.tgz#09f9c05dcfa9b5cd69345d7ab333749813ed8b14"
+  integrity sha512-dhfW12vZxxKLEVhrPoblmEopgwpYU2Sd4GdXj5OSfbQ+as9+1aY+S5pqnJYJvXXNWFFJ6aspLkCyk4NMQ/pgtA==
   dependencies:
-    "@babel/runtime" "^7.4.5"
+    "@babel/runtime" "^7.7.7"
     ast-metadata-inferer "^0.1.1"
-    browserslist "^4.6.3"
-    caniuse-db "^1.0.30000977"
+    browserslist "^4.8.2"
+    caniuse-db "^1.0.30001017"
     lodash.memoize "4.1.2"
-    mdn-browser-compat-data "^0.0.84"
-    semver "^6.1.2"
+    mdn-browser-compat-data "^1.0.3"
+    semver "^6.3.0"
 
 eslint-plugin-flowtype@^4.6.0:
   version "4.6.0"
@@ -3547,10 +3554,10 @@ md5.js@^1.3.4:
     inherits "^2.0.1"
     safe-buffer "^5.1.2"
 
-mdn-browser-compat-data@^0.0.84:
-  version "0.0.84"
-  resolved "https://registry.yarnpkg.com/mdn-browser-compat-data/-/mdn-browser-compat-data-0.0.84.tgz#791d0e238cff5779fae589f99f5b2c7b84ea44b5"
-  integrity sha512-fAznuGNaQMQiWLVf+gyp33FaABTglYWqMT7JqvH+4RZn2UQPD12gbMqxwP9m0lj8AAbNpu5/kD6n4Ox1SOffpw==
+mdn-browser-compat-data@^1.0.3:
+  version "1.0.6"
+  resolved "http://localhost:4873/mdn-browser-compat-data/-/mdn-browser-compat-data-1.0.6.tgz#0cc71fbd5a4b03e413c0ad585fd61b2313b54e8f"
+  integrity sha512-XljrVZJi3y3v9+QkNyalvyWgvKU3io7vHqLJtbJewRHrEKJKt+mvznJZljLtYST9MRhe+5/db7yzRQW4YjT7yA==
   dependencies:
     extend "3.0.2"
 
@@ -3750,10 +3757,10 @@ node-notifier@^6.0.0:
     shellwords "^0.1.1"
     which "^1.3.1"
 
-node-releases@^1.1.38:
-  version "1.1.40"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.40.tgz#a94facfa8e2d612302601ca1361741d529c4515a"
-  integrity sha512-r4LPcC5b/bS8BdtWH1fbeK88ib/wg9aqmg6/s3ngNLn2Ewkn/8J6Iw3P9RTlfIAdSdvYvQl2thCY5Y+qTAQ2iQ==
+node-releases@^1.1.46:
+  version "1.1.47"
+  resolved "http://localhost:4873/node-releases/-/node-releases-1.1.47.tgz#c59ef739a1fd7ecbd9f0b7cf5b7871e8a8b591e4"
+  integrity sha512-k4xjVPx5FpwBUj0Gw7uvFOTF4Ep8Hok1I6qjwL3pLfwe7Y0REQSAqOwwv9TWBCUtMHxcXfY4PgRLRozcChvTcA==
   dependencies:
     semver "^6.3.0"
 
