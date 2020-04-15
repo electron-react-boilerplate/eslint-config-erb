@@ -23,7 +23,9 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-var-requires": "off",
   },
-  "import/parsers": {
-    "@typescript-eslint/parser": [".ts", ".tsx"],
+  settings: {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"],
+    },
   },
 };
