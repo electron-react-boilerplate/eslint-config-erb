@@ -1,3 +1,3 @@
-const foo = 'adsf'
+const foo = "adsf";
 console.log(foo);
-let bar = 'adsf'
+const bar = "adsf";
