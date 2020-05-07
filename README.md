@@ -1,4 +1,4 @@
-eslint-config-eb
+eslint-config-erb
 ================
 
 [![Travis Build Status](https://img.shields.io/travis/com/electron-react-boilerplate/eslint-config-erb.svg?logo=travis)](https://travis-ci.com/vikr01/renovate-config)
