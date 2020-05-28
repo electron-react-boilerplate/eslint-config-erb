@@ -4,6 +4,18 @@ exports[`basic should report semicolon errors 1`] = `
 Array [
   Array [
     Object {
+      "column": 1,
+      "endColumn": 12,
+      "endLine": 2,
+      "filePath": "",
+      "line": 2,
+      "message": "Unexpected console statement.",
+      "messageId": "unexpected",
+      "nodeType": "MemberExpression",
+      "ruleId": "no-console",
+      "severity": 1,
+    },
+    Object {
       "column": 7,
       "endColumn": 10,
       "endLine": 3,

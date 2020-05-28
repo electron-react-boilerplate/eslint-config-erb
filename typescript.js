@@ -9,6 +9,7 @@ module.exports = {
     "plugin:jest/recommended",
     "plugin:promise/recommended",
     "plugin:compat/recommended",
+    "plugin:react-hooks/recommended",
   ],
   env: {
     browser: true,
