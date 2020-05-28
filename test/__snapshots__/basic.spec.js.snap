@@ -10,6 +10,7 @@ Array [
       "filePath": "",
       "line": 3,
       "message": "'bar' is assigned a value but never used.",
+      "messageId": "unusedVar",
       "nodeType": "Identifier",
       "ruleId": "no-unused-vars",
       "severity": 2,
