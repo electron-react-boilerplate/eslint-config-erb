@@ -5,11 +5,6 @@
   "repository": "https://github.com/electron-react-boilerplate/eslint-config-erb",
   "contributors": [
     {
-      "name": "Vikram Rangaraj",
-      "email": "vik120@icloud.com",
-      "url": "https://github.com/vikr01"
-    },
-    {
       "name": "Amila Welihinda",
       "email": "amilajack@gmail.com",
       "url": "https://github.com/amilajack"
