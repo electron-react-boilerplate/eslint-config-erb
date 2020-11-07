@@ -1,6 +1,7 @@
 {
   "name": "eslint-config-erb-javascript",
-  "version": "2.0.0-alpha.0",
+  "version": "2.0.0-alpha.1",
+  "description": "The eslint config for javascritp based electron-react-boilerplate",
   "main": "index.js",
   "repository": "https://github.com/electron-react-boilerplate/eslint-config-erb",
   "contributors": [
@@ -67,5 +68,5 @@
       "bliss"
     ]
   },
-  "gitHead": "da40e5f9ec871e3931ccaa2d990a5945b8879965"
+  "gitHead": "4d070a8e953bb9d73ac50fbaa303ea351e3e0910"
 }
