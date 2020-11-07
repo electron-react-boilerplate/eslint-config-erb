@@ -1,7 +1,13 @@
 {
   "name": "erb-eslint-configs",
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
 }
