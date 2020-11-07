@@ -5,7 +5,7 @@ describe("basic", () => {
     const cli = new CLIEngine({
       useEslintrc: true,
     });
-    const { results } = cli.executeOnFiles([require.resolve("./bad.js")]);
+    const { results } = cli.executeOnFiles([require.resolve("./bad.ts")]);
     expect(
       results.map((result) =>
         result.messages.map((message) => ({
