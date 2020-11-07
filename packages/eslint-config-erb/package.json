@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-erb",
-  "version": "1.0.0",
+  "version": "2.0.0-alpha.0",
   "main": "index.js",
   "repository": "https://github.com/electron-react-boilerplate/eslint-config-erb",
   "contributors": [
@@ -67,5 +67,6 @@
     "extends": [
       "bliss"
     ]
-  }
+  },
+  "gitHead": "da40e5f9ec871e3931ccaa2d990a5945b8879965"
 }
