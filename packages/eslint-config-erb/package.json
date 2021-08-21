@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-erb",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "The eslint config for electron-react-boilerplate",
   "main": "index.js",
   "repository": "https://github.com/electron-react-boilerplate/eslint-config-erb",
