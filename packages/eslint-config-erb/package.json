@@ -21,6 +21,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^13.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-webpack": "^0.13.1",
     "eslint-plugin-compat": "^3.13.0",
@@ -39,7 +40,6 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "eslint-config-airbnb-typescript": "^13.0.0",
     "jest": "^27.0.6",
     "lerna": "^4.0.0",
     "prettier": "^2.3.2",
