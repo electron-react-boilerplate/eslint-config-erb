@@ -19,33 +19,32 @@
     "test": "jest"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.29.2",
-    "@typescript-eslint/parser": "^4.29.3",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-airbnb-typescript": "^13.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-config-airbnb-typescript": "^16.0.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-import-resolver-webpack": "^0.13.1",
-    "eslint-plugin-compat": "^3.13.0",
-    "eslint-plugin-import": "^2.24.1",
-    "eslint-plugin-jest": "^24.4.0",
-    "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-prettier": "^3.4.1",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0"
+    "eslint-import-resolver-webpack": "^0.13.2",
+    "eslint-plugin-compat": "^4.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.2.4",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0"
   },
   "peerDependencies": {
-    "eslint": ">=7",
-    "jest": ">=26.0.1",
-    "react": ">=16.13.1"
+    "eslint": ">=7 || >=8",
+    "jest": ">=27.3.1",
+    "react": "^17.0.2"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "jest": "^27.0.6",
+    "eslint": "^8.2.0",
+    "jest": "^27.3.1",
     "lerna": "^4.0.0",
-    "prettier": "^2.3.2",
+    "prettier": "^2.4.1",
     "react": "^17.0.2",
-    "typescript": "^4.3.5"
+    "typescript": "^4.5.2"
   },
   "eslintConfig": {
     "extends": "./index.js"
