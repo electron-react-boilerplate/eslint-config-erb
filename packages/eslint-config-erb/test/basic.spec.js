@@ -1,11 +1,11 @@
-const { CLIEngine } = require("eslint");
+const { ESLint } = require("eslint");
 
 describe("basic", () => {
-  it("should report semicolon errors", () => {
-    const cli = new CLIEngine({
+  it("should report semicolon errors", async () => {
+    const cli = new ESLint({
       useEslintrc: true,
     });
-    const { results } = cli.executeOnFiles([require.resolve("./bad.ts")]);
+    const results = await cli.lintFiles([require.resolve("./bad.ts")]);
     expect(
       results.map((result) =>
         result.messages.map((message) => ({
