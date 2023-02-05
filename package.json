@@ -52,6 +52,5 @@
     "extends": [
       "bliss"
     ]
-  },
-  "gitHead": "ad44a7af90841cbbd7cd0585b24d7a6c5d1008fd"
+  }
 }
