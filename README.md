@@ -2,7 +2,7 @@
 
 ![Test](https://github.com/electron-react-boilerplate/eslint-config-erb/workflows/Test/badge.svg)
 
-The eslint config for [`electron-react-boilerplate`](https://github.com/electron-react-boilerplate/electron-react-boilerplate).
+The eslint config for [electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate).
 
 The config extends [`eslint-config-airbnb`](https://www.npmjs.com/package/eslint-config-airbnb) by adding support for the following:
 
