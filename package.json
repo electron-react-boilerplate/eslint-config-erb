@@ -1,10 +1,57 @@
 {
-  "name": "erb-eslint-configs",
-  "private": true,
+  "name": "eslint-config-erb",
+  "version": "4.0.4",
+  "description": "The eslint config for electron-react-boilerplate",
+  "main": "index.js",
+  "repository": "https://github.com/electron-react-boilerplate/eslint-config-erb",
+  "contributors": [
+    {
+      "name": "Amila Welihinda",
+      "email": "amilajack@gmail.com",
+      "url": "https://github.com/amilajack"
+    }
+  ],
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
   "scripts": {
     "test": "jest"
   },
-  "workspaces": [
-    "packages/*"
-  ]
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-compat": "^4.0.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7 || >=8",
+    "jest": ">=27.3.1",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "jest": "^29.4.1",
+    "prettier": "^2.8.3",
+    "react": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "renovate": {
+    "extends": [
+      "bliss"
+    ]
+  },
+  "gitHead": "ad44a7af90841cbbd7cd0585b24d7a6c5d1008fd"
 }
