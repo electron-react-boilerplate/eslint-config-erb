@@ -52,5 +52,8 @@
     "extends": [
       "bliss"
     ]
+  },
+  "engines": {
+    "node": ">=16.x.x"
   }
 }
